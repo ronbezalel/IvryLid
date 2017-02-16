@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ivry Lider</title>
+		<link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
+		<script src="includes/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="includes/styles.css" />
+		<script src="includes/scripts.js"></script>		
+		<meta name="viewport" content="width=device.width, initial-scale=1">
+	</head>
+	<body id="admin">
+		<div class="wrapper">
+			<header>
+				<section id="logo">
+					<a href="index.html"></a>	
+				</section>
+				<nav>
+					<section class="navigation">
+						<a class="hidden-md hidden-lg collapsed" data-toggle="collapse" data-target="#navigation-collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-align-justify"></i>
+	                    </a>
+						<div class="collapse navbar-collapse" id="navigation-collapse">
+							<ul>
+								<li><a href="index.html">הופעות</a></li>
+								<li><a href="music.html">מוזיקה</a></li>
+								<li><a href="#">חנות</a></li>
+								<li><a href="ivtv.html">IV.TV</a></li>
+								<li><a href="updates.html">עדכונים</a></li>
+								<li id="current"><a href="#">ביוגרפיה</a></li>
+								<li><a href="#">תמונות</a></li>
+								<li><a href="#">הורדות</a></li>
+								<li><a href="contact.html">קשר</a></li>
+							</ul>
+						</div>
+					</section>	
+				</nav>
+			</header>
+			<main>
+				<form method="post" id="posts" action="">
+					 <div class="form-group">
+					<label>date:</label><input type="text" name="date" id="date">
+					</div>
+					 <div class="form-group">
+					<label>title:</label><input type="text" name="title" id="title">
+					</div>
+					<div class="form-group">
+					<label>description:</label><input type="text" name="description" id="description">
+					</div>
+					<div class="form-group">
+					<label>day:</label><input type="text" name="day" id="day">
+					</div>
+					<div class="form-group">
+					<label>image URL:</label><input type="text" name="imgURL" id="imgURL">
+					</div>
+					<input type="submit" value="submit" name="submit" class="btn btn-primary">
+				</form>
+				<div id="loader">
+					
+				</div>
+			</main>
+		</div>
+		<script>
+			window.onload = function() {
+				adminManager = new AdminManager();
+			}
+		</script>	
+	</body>
+</html>

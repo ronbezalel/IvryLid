@@ -1,0 +1,671 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav, main, header, footer, article, section, aside {
+	display: block;
+}
+
+body {
+	font-family: 'Alef', sans-serif;
+}
+
+.wrapper {
+	background: url("../images/header-bg.png") no-repeat;
+	max-width: 1190px;
+	min-height: 700px;
+	margin: 0 auto;
+}
+
+header {
+	background: url("../images/header-bg-grd.png") repeat-x;
+	background-position: right top;
+	width: 185px;
+	float: right;
+}
+
+#logo {
+	border-top: 6px solid #999999;
+	width: 100px;
+	margin-left: 40px;
+}
+
+#logo > a {
+	background: url("../images/logo-hp.png") no-repeat;
+	width: 100px;
+	height: 28px;
+	margin-top: 65px;
+	display: block;
+}
+
+.clear {
+	clear: both;
+}
+
+nav {
+	width: 185px;
+	height: 100%;
+	float: right;
+	margin-top: 100px;
+	padding-top: 50px;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: right;
+}
+
+nav ul li {
+	direction: rtl;
+	padding-right: 50px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #5f5f5f;
+	font-size: 16px;
+}
+
+nav li a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+main {
+	float: right;
+	padding-right: 55px;
+}
+
+.sectionTopper {
+	border-top: 6px solid #ff3300;
+	padding-top: 165px;
+	float: right;
+}
+
+.sectionTopper > section {
+	background: url("../images/contact-form-bg.png");
+}
+
+.sectionTitle {
+	background: #ffffff;
+	font-size: 14px;
+	color: #6b6b6b;
+	text-align: right;
+	direction: rtl;
+	padding-right: 5px;
+}
+
+/*Home page css*/
+
+#current{
+	font-weight: 900;
+}
+
+#leftSection > section {
+	height: 163px;
+	width: 145px;
+}
+
+#leftSection > h1 {
+	width: 56px;
+	margin-left: 89px;
+}
+
+#middleSection {
+	margin-left: 61px;
+}
+
+#middleSection > section {
+	height: 400px;
+	width: 205px;
+}
+
+#middleSection > h1 {
+	width: 50px;
+	margin-left: 155px;
+}
+
+#middleSection .sectionContent p {
+	height: auto;
+}
+
+
+
+#rightSection {
+	margin-left: 9px;
+}
+
+#rightSection > section {
+	height: 390px;
+	width: 255px;
+}
+
+#rightSection .sectionContent {
+	height: 70px;
+}
+
+
+#rightSection > h1 {
+	width: 43px;
+	margin-left: 212px;
+}
+
+#rightSection .sectionContent p {
+	height: auto;
+	margin-bottom: 2px;
+}
+
+.sectionContent {
+	background: #000000;
+	color: #a0a0a0;
+	font-size: 14px;
+	direction: rtl;
+	text-align: right;
+	padding: 14px 13px 15px 0;
+	margin-bottom: 3px;
+	
+}
+
+.sectionContent h5 {
+	font-weight: 900;
+	font-size: 13px;
+	margin: 0;
+} 
+
+.sectionContent > p {
+	margin-bottom: 0px;
+	height: 16px;
+	line-height: 12px;
+}
+
+/*contact page css*/
+
+#contact .sectionTopper {
+	padding-top: 215px;
+}
+
+#contact .sectionTopper section{
+	height: 100%;
+}
+
+#form-right {
+	width: 223px;
+	height: 616px;
+	margin-left: 25px;
+}
+
+#form-left {
+	width: 365px;
+	height: 616px;
+}
+
+.formStyle {
+	background: #1e1e1e;
+	color: #d7d7d7;
+	font-size: 14px;
+}
+
+form label {
+	display: block;
+	text-align: right;
+	width: 70px;
+	height: 20px;
+	float: right;
+	margin-right: 1px;
+	padding-right: 14px;
+}
+
+form input {
+	width: 100%;
+	border: none;
+	border-top: 3px solid #1e1e1e;
+	margin-bottom: 20px;
+}
+
+form textarea {
+	width: 100%;
+	height: 137px;
+	border: none;
+	margin-top: 1px;
+}
+
+
+
+form button {
+	width: 68px;
+	height: 17px;
+	margin-right: 4px;
+	padding-right: 10px;
+	border: none;
+	text-align: right;
+}
+
+#arrow {
+	color: #ff3300;
+	font-size: 10px;
+	padding-right: 5px;
+}
+
+/*bio page css*/
+
+#bio main section {
+	float: right;
+}
+
+#bio .sectionTopper {
+	padding-top: 200px;
+}
+
+#bio .sectionTopper > section {
+	height: 424px;
+}
+
+#bioText {
+	width: 550px;
+	height: 424px;
+	background: #d7d7d7;
+	padding: 30px 50px 39px 27px;
+}
+
+#bioText p {
+	direction: rtl;
+	font-size: 12px;
+	padding-bottom: 20px;
+	margin: 0;
+	line-height: normal;
+}
+
+/*ivtv page css*/
+
+#ivtv .sectionTopper {
+	margin-left: 38px;
+}
+
+#ivtv main {
+	padding-bottom: 10px;
+}
+
+#songVideo {
+	padding-top: 0;
+}
+
+#songVideo > section {
+	width: 479px;
+	height: 595px;
+}
+
+
+#songVideo iframe {
+	display: inherit;
+}
+
+#songInfo {
+	height: 75px;
+	max-width: 100%;
+	margin-top: 3px;
+	background: #1e1e1e;
+	direction: rtl;
+	text-align: right;
+	padding-top: 12px;
+	padding-right: 17px;
+	padding-bottom: 18px;	
+}
+
+#songInfo h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #c32d08;
+	height: 15px;
+	margin-right: 17px;
+	font-size: 15px;
+}
+
+#songInfo p {
+	height: 13px;
+	color: #d7d7d7;
+	margin-top: 18px;
+	margin-right: 17px;
+	font-size: 13px;
+}
+
+#songsBox {
+	width: 264px;
+	margin-top: 50px;
+}
+
+.songLink {
+	width: 100%;
+	height: 75px;
+	margin-top: 3px;
+	background: #1e1e1e;
+	cursor: pointer;
+}
+
+.songLink .songRecordInfo {
+	width: 147px;
+	float: left;
+	color: #d7d7d7;
+	direction: rtl;
+	text-align: right;	
+}
+
+.songLink .imgContainer {
+	float: right;
+	width: 101px;
+	height: 75px;
+}
+
+.songLink:hover .redImg {
+	width: 101px;
+    height: 75px;
+    background-color: #9a2101;
+    opacity: 0.5;
+    position: absolute;
+}
+.songRecordInfo h5 {
+	margin: 0;
+	margin-bottom: 2px;
+}
+
+.songRecordInfo h6 {
+	color: #8c8c8c;
+	margin: 0;
+	margin-bottom: 2px;
+}
+
+/*updates page css*/
+
+#updates main section {
+	float: right;
+}
+
+#updates .sectionTopper {
+	padding-top: 274px;
+	height: 100%;
+}
+
+#updates .sectionTopper > section {
+	background: url("../images/contact-form-bg.png");
+	height: 390px;
+	width: 100%;
+}
+
+#dates {
+	width: 80px;
+	margin-left: 22px;
+}
+
+#updatesDesc p,
+#dates p {
+	width: 100%;
+	height: 34px;
+	margin-bottom: 3px;
+	background: #1e1e1e;
+    color: #fefefe;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+#updatesDesc p{
+	cursor: pointer;
+}
+
+#updatesDesc {
+	width: 224px;
+}
+
+#expend {
+	padding-top: 280px;
+	margin-left: 33px;
+	width: 27px;
+}
+
+#expend p {
+	background: #1e1e1e;
+	width: 27px;
+	height: 34px;
+	color: red;
+	margin-bottom: 3px;
+	text-align: center;
+    padding-top: 6px;
+    visibility: hidden;
+}
+
+#updateInfo {
+	width: 397px;
+}
+
+#updateInfo section section:first-child {
+	width: 100%;
+	height: 144px;
+	background: url("../images/updates_photo1.png");
+}
+
+#updateInfo h1 {
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0;
+	margin-bottom: 14px;
+}
+
+#updateInfo section section:last-child {
+	width: 100%;
+	min-height: 139px;
+	background: #1e1e1e;
+    color: #d7d7d7;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 17px 25px 10px;
+    direction: rtl;
+	text-align: right;
+}
+
+/*music page css*/
+
+#music main section {
+	float: right;
+}
+
+#disks.sectionTopper,
+#diskSongs.sectionTopper {
+	padding-top: 244px;
+	height: 100%;
+}
+
+#diskSongs.sectionTopper >  section,
+#disks.sectionTopper > section {
+	background: url("../images/contact-form-bg.png");
+	height: 390px;
+	width: 100%;
+}
+
+#disks {
+	width: 183px;
+}
+
+.diskCover {
+	width: 100%;
+	background-color: #1e1e1e;
+	direction: rtl;
+	text-align: right;
+	color: #d7d7d7;
+	margin-bottom: 2px;
+}
+
+.diskCover h5 {
+	padding: 6px 18px 3px 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+#diskBridge {
+	padding-top: 250px;
+	width: 44px;
+}
+
+#diskBridge p {
+	background: #1e1e1e;
+	height: 24px;
+    margin-bottom: 2px;
+    visibility: hidden;
+}
+#diskSongs {
+	width: 183px;
+	margin-left: 50px;
+}
+
+#music main .diskYear {
+	width: 100%;
+	float: none;
+	background-color: #1e1e1e;
+	text-align: left;
+	color: #d7d7d7;
+	padding: 0px 0px 3px 11px;	
+}
+
+.diskYear h5 {
+	height: 21px;
+	margin: 0;
+}
+
+#music main .diskSongName {
+	float: right;
+	height: 20px;
+	direction: rtl;
+	text-align: right;
+	padding: 2px 13px 3px 20px;
+	background-color: #d7d7d7;
+	color: #1e1e1e;
+	margin-top: 2px;
+	clear: both; 
+	cursor: pointer;	
+}
+
+#songLyrics {
+	width: 274px;
+	height: 500px;
+	padding-top: 0;
+}
+
+#songLyrics p {
+	direction: rtl;
+	text-align: right;
+	padding: 11px 15px 9px 10px;
+	background-color: #d7d7d7;
+	color: #1e1e1e;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+/* admin page css */
+
+#admin main {
+	padding-top: 230px;
+}
+
+#admin label {
+	float: left;
+	text-align: left;
+	width: 150px;
+}
+
+@media (max-width: 991px) {
+	i {
+		font-size: 25px;
+	}
+	
+	header {
+		background: none;
+	}
+	
+	.navigation {
+		position: absolute;
+		top: 5px;
+		left: 10px;
+	}
+	
+	#home .navigation {
+		top: 37px;
+	}
+	
+	.sectionTopper {
+		padding-top: 0px;
+	}
+	
+	/*contact page css*/
+	#contact .sectionTopper {
+		padding-top: 0px;
+	}
+	
+	#form-right {
+		height: 391px;
+	}
+
+	#form-left {
+		height: 391px;
+	}
+	
+	/*bio page css*/
+	#bio .sectionTopper {
+		padding-top: 0px;
+	}
+	
+    /*Needed for bootstrap responsive nav*/
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+     .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    
+    main {
+    	margin-top: 15px;
+    }
+    
+    /*ivtv page css*/
+   
+   #ivtv .sectionTopper {
+   	margin-left: 15px;
+   }
+    
+  	#songVideo > section {
+  		width: 400px;
+  	}
+  	
+  	#songsBox {
+  		margin: 0;
+  	}
+    
+    /*updates page css */
+   #updateInfo,
+   #updateInfo img {
+   	width: 300px;
+   }
+   
+   #expend {
+   	padding-top: 6px;
+   }
+   #updates .sectionTopper {
+	 padding-top: 0px;
+   }
+   
+   /*music page css */
+  #music main{
+  	width: 750px;
+  }
+  
+  #music .sectionTopper{
+  	padding-top: 0px;
+  }
+  
+  #diskSongs{
+  	width: 140px;
+  }
+  
+  #diskBridge {
+  	padding-top: 6px;
+  }
+}
+
